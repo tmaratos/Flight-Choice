@@ -101,19 +101,20 @@
   </div>
   <main id="main">
 
-    <section class="hero" aria-label="Hero">
+    <section class="hero hero--home" aria-label="Hero">
       <div class="hero-bg">
         <img src="assets/images/hero/hero-fleet-lineup-wide.webp" alt="Flight Choice aircraft on the ramp" width="1920" height="1080" fetchpriority="high" decoding="async">
       </div>
       <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
       <div class="hero-inner">
-        <h1>Knoxville's Premier Private Aircraft Charter and Management Service</h1>
-        <p class="hero-sub">Aircraft charter, management, and turn-key maintenance—built around your schedule and the highest standards of safety.</p>
-        <div class="hero-btns">
+        <h1 class="hero-reveal hero-reveal--1">Knoxville's Premier Private Aircraft Charter and Management Service</h1>
+        <p class="hero-sub hero-reveal hero-reveal--2">Aircraft charter, management, and turn-key maintenance—built around your schedule and the highest standards of safety.</p>
+        <div class="hero-btns hero-reveal hero-reveal--3">
           <a href="quotes.html" class="btn btn-primary">Create An Instant Quote</a>
           <a href="aircraft.html" class="btn btn-ghost">View Our Aircraft</a>
         </div>
-        <div class="trust-strip" role="list">
+        <div class="trust-strip hero-reveal hero-reveal--4" role="list">
           <span class="trust-item" role="listitem">FAA Part 135 · X0IA198L</span>
           <span class="trust-item" role="listitem">On-Demand 24/7</span>
           <span class="trust-item" role="listitem">Knoxville, Tennessee</span>
@@ -122,33 +123,49 @@
       </div>
     </section>
 
-    <section class="section section--dark" aria-labelledby="why-fc">
-      <div class="container reveal">
-        <p class="eyebrow">Why Flight Choice</p>
-        <h2 id="why-fc" class="h2">Your Time. Your Mission. Our Commitment.</h2>
-        <div class="pillar-grid--3" style="margin-top:2rem;">
-          <div class="content-card">
-            <h3>Our Philosophy</h3>
-            <p>We believe <strong style="color:var(--gold);">Time Saved is Life Gained!</strong> There is nothing more precious than your time. We promise to maximize your time, either for your business or with your family. Experience private charter air travel today!</p>
-          </div>
-          <div class="content-card">
-            <h3>Our Experience</h3>
-            <p>In today's world, no one wants the hassle of commercial air travel or spending time in traffic. Navigate around crowds or all-day car rides with a private charter flight.</p>
-          </div>
-          <div class="content-card">
-            <h3>Luxury Travel</h3>
-            <p>When you travel with us, you can trust that we'll care for you. From trip planning to black car service, our top-notch service guarantees you'll enjoy flying with Flight Choice.</p>
-          </div>
-        </div>
+    <section class="section section--dark" aria-labelledby="services-overview">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">What We Do</p>
+          <h2 id="services-overview" class="h2">Charter, Management &amp; Maintenance</h2>
+          <p class="lead">One professional team supporting your entire aviation needs—from on-demand charter to turn-key ownership.</p>
+        </header>
+        <nav class="service-links reveal" aria-label="Services overview">
+          <a href="services.html#charter" class="service-link">
+            <span class="service-link__num" aria-hidden="true">01</span>
+            <div>
+              <h3 class="service-link__title">On-Demand Air Charter</h3>
+              <p class="service-link__desc">Your schedule, your route—no connections, no security lines, no waiting.</p>
+            </div>
+            <span class="service-link__arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="services.html#management" class="service-link">
+            <span class="service-link__num" aria-hidden="true">02</span>
+            <div>
+              <h3 class="service-link__title">Aircraft Management</h3>
+              <p class="service-link__desc">Turn-key ownership with pro-pilots, scheduling, and on-site maintenance support.</p>
+            </div>
+            <span class="service-link__arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="services.html#maintenance" class="service-link">
+            <span class="service-link__num" aria-hidden="true">03</span>
+            <div>
+              <h3 class="service-link__title">Aircraft Maintenance</h3>
+              <p class="service-link__desc">A&amp;P and IA mechanics keeping your aircraft mission-ready under one roof.</p>
+            </div>
+            <span class="service-link__arrow" aria-hidden="true">→</span>
+          </a>
+        </nav>
+        <p class="section-cta reveal"><a href="services.html" class="btn btn-ghost">View All Services</a></p>
       </div>
     </section>
 
     <section class="section compare" aria-labelledby="compare-h">
       <div class="container">
-        <div class="reveal">
+        <header class="section-head reveal">
           <p class="eyebrow">Travel Your Way</p>
           <h2 id="compare-h" class="h2">Skip the Terminal. Fly on Your Schedule.</h2>
-        </div>
+        </header>
         <div class="compare-grid reveal">
           <div class="compare-side compare-side--bad">
             <span class="compare-label compare-label--bad">Commercial Travel</span>
@@ -159,78 +176,73 @@
             <img src="assets/images/operations/private-transfer-luggage-to-aircraft.webp" alt="Private transfer to aircraft" loading="lazy" decoding="async">
           </div>
         </div>
-        <ul class="compare-list reveal" style="margin-top:2rem;">
+        <ul class="compare-list reveal compare-content">
           <li>No connections, no security lines, no waiting</li>
           <li>Direct regional access on your itinerary</li>
-          <li>Ground transportation, catering, and trip coordination</li>
         </ul>
-      </div>
-    </section>
-
-    <section class="section section--deeper" aria-labelledby="safety-h">
-      <div class="container reveal">
-        <div class="safety-callout">
-          <p class="eyebrow">Choosing a Reputable Charter Company</p>
-          <h2 id="safety-h" class="h2">Your Safety Is Our Priority</h2>
-          <p>Personal air travel is now more accessible than ever. However, this growth brings a greater risk of encountering potential illegal and/or non-compliant flight operations that could compromise safety.</p>
-          <p>At Flight Choice, your safety, security, and peace of mind are our top priorities.</p>
-          <p>We are proud to be an approved Air Carrier operating under FAA Part 135.</p>
-          <p class="cert-badge">Certificate Number: X0IA198L</p>
-        </div>
       </div>
     </section>
 
     <section class="section section--dark" aria-labelledby="fleet-prev">
       <div class="container">
-        <div class="reveal" style="text-align:center;max-width:36rem;margin:0 auto 2.5rem;">
+        <header class="section-head section-head--center reveal">
           <p class="eyebrow">Aircraft</p>
           <h2 id="fleet-prev" class="h2">High-Performance Beechcraft Fleet</h2>
-          <p class="lead" style="margin:0 auto;">King Air 250, King Air 90, and Baron 58—managed and operated to your mission profile.</p>
-        </div>
-        <div class="fleet-cards">
-          <article class="aircraft-card reveal">
-            <div class="aircraft-card__img"><img src="assets/images/fleet/kingair-front-prop-running.webp" alt="King Air 250" loading="lazy"></div>
-            <div class="aircraft-card__body">
+          <p class="lead">King Air 250, King Air 90, and Baron 58—matched to your mission profile.</p>
+        </header>
+        <div class="fleet-showcase">
+          <a href="aircraft.html#kingair-250" class="fleet-showcase__item fleet-showcase__featured reveal">
+            <img src="assets/images/fleet/kingair-front-prop-running.webp" alt="King Air 250" loading="lazy" decoding="async">
+            <div class="fleet-showcase__shade" aria-hidden="true"></div>
+            <div class="fleet-showcase__content">
+              <p class="meta">Flagship · Up to 8 + 2 passengers</p>
               <h3>King Air 250 Series</h3>
-              <p class="meta">Up to 8 + 2 passengers</p>
-              <p class="desc">Pressurized turboprop performance—280+ KTAS, advanced avionics, executive cabin.</p>
-              <a href="aircraft.html#kingair-250" class="link-arrow">View Aircraft</a>
+              <p>Pressurized turboprop—280+ KTAS, executive cabin.</p>
+              <span class="link-arrow">View Aircraft</span>
             </div>
-          </article>
-          <article class="aircraft-card reveal">
-            <div class="aircraft-card__img"><img src="assets/images/fleet/kingair-front-quarter-prop-blur.webp" alt="King Air 90" loading="lazy"></div>
-            <div class="aircraft-card__body">
+          </a>
+          <a href="aircraft.html#kingair-90" class="fleet-showcase__item reveal">
+            <img src="assets/images/fleet/kingair-front-quarter-prop-blur.webp" alt="King Air 90" loading="lazy" decoding="async">
+            <div class="fleet-showcase__shade" aria-hidden="true"></div>
+            <div class="fleet-showcase__content">
+              <p class="meta">King Air 90 · Up to 6 + 2</p>
               <h3>King Air 90 Series</h3>
-              <p class="meta">Up to 6 + 2 passengers</p>
-              <p class="desc">Proven King Air versatility for regional legs with pressurized comfort.</p>
-              <a href="aircraft.html#kingair-90" class="link-arrow">View Aircraft</a>
+              <span class="link-arrow">View Aircraft</span>
             </div>
-          </article>
-          <article class="aircraft-card reveal">
-            <div class="aircraft-card__img"><img src="assets/images/fleet/baron-front-ramp-clouds.webp" alt="Baron 58" loading="lazy"></div>
-            <div class="aircraft-card__body">
+          </a>
+          <a href="aircraft.html#baron-58" class="fleet-showcase__item reveal">
+            <img src="assets/images/fleet/baron-front-ramp-clouds.webp" alt="Baron 58" loading="lazy" decoding="async">
+            <div class="fleet-showcase__shade" aria-hidden="true"></div>
+            <div class="fleet-showcase__content">
+              <p class="meta">Baron 58 · Up to 5 passengers</p>
               <h3>Baron 58 Series</h3>
-              <p class="meta">Up to 5 passengers</p>
-              <p class="desc">Twin-engine efficiency and access to smaller airports.</p>
-              <a href="aircraft.html#baron-58" class="link-arrow">View Aircraft</a>
+              <span class="link-arrow">View Aircraft</span>
             </div>
-          </article>
+          </a>
+        </div>
+        <p class="section-cta reveal"><a href="aircraft.html" class="btn btn-ghost">Explore Full Fleet &amp; Specs</a></p>
+      </div>
+    </section>
+
+    <section class="section section--deeper" aria-labelledby="safety-preview">
+      <div class="container reveal">
+        <div class="safety-preview">
+          <p class="eyebrow">Safety &amp; Compliance</p>
+          <h2 id="safety-preview" class="h2">FAA Part 135 Approved Air Carrier</h2>
+          <p>Your safety, security, and peace of mind are our top priorities. We operate as an approved Air Carrier under FAA Part 135.</p>
+          <p class="cert-badge">Certificate Number: X0IA198L</p>
+          <a href="services.html#safety" class="link-arrow">Our Safety Standards</a>
         </div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="team-prev">
-      <div class="container reveal">
-        <div class="cabin-split">
-          <figure class="team-banner" style="margin:0;">
-            <img src="assets/images/team/team-ramp-group-photo.webp" alt="Flight Choice team on the ramp" loading="lazy">
-          </figure>
-          <div>
-            <p class="eyebrow">Meet Our Team</p>
-            <h2 id="team-prev" class="h2">Meet Our Team</h2>
-            <p class="lead">At Flight Choice, we are grateful to have a remarkable team of highly qualified pilots, A&amp;P/IA mechanics, and top-tier aviation professionals dedicated to delivering your private aviation experience with the highest standards of safety and professionalism from the first impression, to your final destination.</p>
-            <a href="team.html" class="btn btn-ghost" style="margin-top:1rem;">Meet the Team</a>
-          </div>
+    <section class="section" aria-labelledby="team-teaser">
+      <div class="container">
+        <div class="team-teaser reveal">
+          <p class="eyebrow">Meet Our Team</p>
+          <h2 id="team-teaser" class="h2">Experienced People. Reliable Operations.</h2>
+          <p class="lead">Pilots, A&amp;P/IA mechanics, and aviation professionals dedicated to safety from first impression to final destination.</p>
+          <a href="team.html" class="btn btn-ghost">Meet the Team</a>
         </div>
       </div>
     </section>
@@ -241,25 +253,14 @@
           <div>
             <p class="eyebrow">Empty Legs</p>
             <h2 id="empty-sub" class="h2">Subscribe for Last Minute Getaways</h2>
-            <p style="color:var(--text-muted);margin-top:0.5rem;">Have a flexible itinerary? Stay alerted for last minute getaways via our empty-leg charter schedule.</p>
+            <p class="text-muted">Have a flexible itinerary? Stay alerted for last minute getaways via our empty-leg charter schedule.</p>
           </div>
           <form class="subscribe-form quote-form" action="#" method="post" aria-label="Empty leg email signup">
             <input type="email" name="email" placeholder="Your email address" required aria-label="Email for empty leg alerts">
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </form>
         </div>
-        <p style="text-align:center;margin-top:1rem;"><a href="empty-legs.html" class="link-arrow">Search Upcoming Empty Charter Legs</a></p>
-      </div>
-    </section>
-
-    <section class="section section--deeper" aria-labelledby="testimonials">
-      <div class="container reveal">
-        <p class="eyebrow" style="text-align:center;">Testimonials</p>
-        <h2 id="testimonials" class="h2" style="text-align:center;">Don't Just Take Our Word for It!</h2>
-        <div class="testimonial-placeholder" style="margin-top:2rem;">
-          <p><strong style="color:var(--text);">Client testimonials</strong></p>
-          <p>Approved client feedback and reviews can be added here. This section is reserved for verified testimonials from Flight Choice charter clients.</p>
-        </div>
+        <p class="section-cta reveal"><a href="empty-legs.html" class="link-arrow">Search Upcoming Empty Charter Legs</a></p>
       </div>
     </section>
 
@@ -310,7 +311,7 @@
           <a href="mailto:charters@flightchoiceinc.com">charters@flightchoiceinc.com</a>
           <p style="margin-top:0.75rem;font-size:0.85rem;color:var(--text-dim);">2343 W General Aviation Dr, Alcoa, Tennessee 37701, United States</p>
           <div class="footer-legal">
-            <a href="#privacy">Privacy Policy</a>
+            <a href="privacy.html">Privacy Policy</a>
             <a href="empty-legs.html">Empty Legs</a>
           </div>
         </div>

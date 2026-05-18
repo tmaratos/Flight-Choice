@@ -2,6 +2,10 @@
   "use strict";
 
   var preloader = document.getElementById("preloader");
+  if (!preloader) {
+    document.body.classList.add("is-loaded");
+  }
+
   if (preloader) {
     function hidePreloader() {
       preloader.classList.add("is-done");
@@ -69,7 +73,7 @@
           }
         });
       },
-      { threshold: 0.08, rootMargin: "0px 0px -6% 0px" }
+      { threshold: 0.12, rootMargin: "0px 0px -10% 0px" }
     );
     reveals.forEach(function (el) {
       io.observe(el);
