@@ -1,6 +1,23 @@
 (function () {
   "use strict";
 
+  var preloader = document.getElementById("preloader");
+  if (preloader) {
+    function hidePreloader() {
+      preloader.classList.add("is-done");
+      preloader.setAttribute("aria-hidden", "true");
+      document.body.classList.add("is-loaded");
+    }
+    if (document.readyState === "complete") {
+      setTimeout(hidePreloader, 400);
+    } else {
+      window.addEventListener("load", function () {
+        setTimeout(hidePreloader, 500);
+      });
+      setTimeout(hidePreloader, 3500);
+    }
+  }
+
   var header = document.querySelector(".site-header");
   var menuBtn = document.querySelector(".menu-btn");
   var mobileMenu = document.querySelector(".mobile-menu");
@@ -93,9 +110,10 @@
   });
 
   /* Contact form */
-  var form = document.querySelector(".quote-form");
-  if (form) {
-    var success = document.querySelector(".form-success");
+  document.querySelectorAll(".quote-form").forEach(function (form) {
+    var success = form.parentElement
+      ? form.parentElement.querySelector(".form-success")
+      : document.querySelector(".form-success");
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       var valid = true;
@@ -125,5 +143,5 @@
         }, 4000);
       }
     });
-  }
+  });
 })();
