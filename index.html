@@ -120,8 +120,17 @@
           <span class="trust-item" role="listitem">Knoxville, Tennessee</span>
           <span class="trust-item" role="listitem">Time Saved is Life Gained</span>
         </div>
+
+        <p class="google-trust-inline hero-reveal hero-reveal--5" data-google-trust="inline"></p>
       </div>
     </section>
+
+    <section class="google-trust-section" aria-labelledby="client-confidence">
+      <div class="container reveal">
+        <div data-google-trust="section" data-heading-id="client-confidence"></div>
+      </div>
+    </section>
+
 
     <section class="section section--dark" aria-labelledby="services-overview">
       <div class="container reveal">
@@ -153,11 +162,16 @@
 
     <section class="section compare" aria-labelledby="compare-h">
       <div class="container">
-        <div class="reveal">
-          <p class="eyebrow">Travel Your Way</p>
-          <h2 id="compare-h" class="h2">Skip the Terminal. Fly on Your Schedule.</h2>
-        </div>
-        <div class="compare-grid reveal">
+        <div class="compare-editorial reveal">
+          <div class="section-head">
+            <p class="eyebrow">Travel Your Way</p>
+            <h2 id="compare-h" class="h2">Skip the Terminal. Fly on Your Schedule.</h2>
+            <ul class="compare-list">
+              <li>No connections, no security lines, no waiting</li>
+              <li>Direct regional access on your itinerary</li>
+            </ul>
+          </div>
+          <div class="compare-grid img-edge-fade">
           <div class="compare-side compare-side--bad">
             <span class="compare-label compare-label--bad">Commercial Travel</span>
             <img src="assets/images/comparison/commercial-airport-crowd-comparison.webp" alt="Crowded commercial airport" loading="lazy" decoding="async">
@@ -166,47 +180,48 @@
             <span class="compare-label compare-label--good">Flight Choice</span>
             <img src="assets/images/operations/private-transfer-luggage-to-aircraft.webp" alt="Private transfer to aircraft" loading="lazy" decoding="async">
           </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section section--dark" aria-labelledby="fleet-prev">
       <div class="container">
-        <div class="reveal" style="text-align:center;max-width:36rem;margin:0 auto 2.5rem;">
+        <div class="section-head section-head--center reveal">
           <p class="eyebrow">Aircraft</p>
           <h2 id="fleet-prev" class="h2">High-Performance Beechcraft Fleet</h2>
-          <p class="lead" style="margin:0 auto;">King Air 250, King Air 90, and Baron 58—matched to your mission profile.</p>
+          <p class="lead">King Air 250, King Air 90, and Baron 58—matched to your mission profile.</p>
         </div>
-        <div class="fleet-cards">
-          <article class="aircraft-card reveal">
-            <div class="aircraft-card__img"><img src="assets/images/fleet/kingair-front-prop-running.webp" alt="King Air 250" loading="lazy"></div>
+        <div class="fleet-showcase">
+          <article class="aircraft-card fleet-feature reveal">
+            <div class="aircraft-card__img img-zoom"><img src="assets/images/fleet/kingair-front-prop-running.webp" alt="King Air 250" loading="lazy"></div>
             <div class="aircraft-card__body">
               <h3>King Air 250 Series</h3>
-              <p class="meta">Up to 8 + 2 passengers</p>
+              <span class="stat-chip">Up to 8 + 2 passengers</span><span class="stat-chip">280+ KTAS</span>
               <p class="desc">Pressurized turboprop—280+ KTAS, executive cabin.</p>
               <a href="aircraft.html#kingair-250" class="link-arrow">View Aircraft</a>
             </div>
           </article>
           <article class="aircraft-card reveal">
-            <div class="aircraft-card__img"><img src="assets/images/fleet/kingair-front-quarter-prop-blur.webp" alt="King Air 90" loading="lazy"></div>
+            <div class="aircraft-card__img img-zoom"><img src="assets/images/fleet/kingair-front-quarter-prop-blur.webp" alt="King Air 90" loading="lazy"></div>
             <div class="aircraft-card__body">
               <h3>King Air 90 Series</h3>
-              <p class="meta">Up to 6 + 2 passengers</p>
+              <span class="stat-chip">Up to 6 + 2</span>
               <p class="desc">Proven King Air versatility for regional legs.</p>
               <a href="aircraft.html#kingair-90" class="link-arrow">View Aircraft</a>
             </div>
           </article>
           <article class="aircraft-card reveal">
-            <div class="aircraft-card__img"><img src="assets/images/fleet/baron-front-ramp-clouds.webp" alt="Baron 58" loading="lazy"></div>
+            <div class="aircraft-card__img img-zoom"><img src="assets/images/fleet/baron-front-ramp-clouds.webp" alt="Baron 58" loading="lazy"></div>
             <div class="aircraft-card__body">
               <h3>Baron 58 Series</h3>
-              <p class="meta">Up to 5 passengers</p>
+              <span class="stat-chip">Up to 5 passengers</span>
               <p class="desc">Twin-engine efficiency and shorter runway access.</p>
               <a href="aircraft.html#baron-58" class="link-arrow">View Aircraft</a>
             </div>
           </article>
         </div>
-        <p style="text-align:center;margin-top:1.5rem;"><a href="aircraft.html" class="btn btn-ghost">Explore Full Fleet &amp; Specs</a></p>
+        <p class="section-cta reveal"><a href="aircraft.html" class="btn btn-ghost">Explore Full Fleet &amp; Specs</a></p>
       </div>
     </section>
 
@@ -214,20 +229,22 @@
       <div class="container reveal">
         <div class="safety-preview-block">
           <p class="eyebrow">Safety &amp; Compliance</p>
-          <h2 id="safety-preview" class="h2" style="font-size:1.65rem;">FAA Part 135 Approved Air Carrier</h2>
-          <p style="color:var(--text-muted);margin-top:0.75rem;">Your safety, security, and peace of mind are our top priorities. We operate as an approved Air Carrier under FAA Part 135.</p>
+          <h2 id="safety-preview" class="h2">FAA Part 135 Approved Air Carrier</h2>
+          <p class="lead">Your safety, security, and peace of mind are our top priorities. We operate as an approved Air Carrier under FAA Part 135.</p>
           <p class="cert-badge">Certificate Number: X0IA198L</p>
-          <a href="services.html#safety" class="link-arrow" style="display:inline-block;margin-top:1rem;">Our Safety Standards</a>
+          <a href="services.html#safety" class="link-arrow">Our Safety Standards</a>
         </div>
       </div>
     </section>
 
     <section class="section team-teaser-section" aria-labelledby="team-teaser">
-      <div class="container reveal" >
-        <p class="eyebrow">Meet Our Team</p>
-        <h2 id="team-teaser" class="h2">Experienced People. Reliable Operations.</h2>
-        <p class="lead" style="margin:0 auto 1.25rem;">Pilots, A&amp;P/IA mechanics, and aviation professionals dedicated to safety from first impression to final destination.</p>
-        <a href="team.html" class="btn btn-ghost">Meet the Team</a>
+      <div class="container reveal">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Meet Our Team</p>
+          <h2 id="team-teaser" class="h2">Experienced People. Reliable Operations.</h2>
+          <p class="lead">Pilots, A&amp;P/IA mechanics, and aviation professionals dedicated to safety from first impression to final destination.</p>
+        </div>
+        <p class="section-cta"><a href="team.html" class="btn btn-ghost">Meet the Team</a></p>
       </div>
     </section>
 
@@ -297,6 +314,7 @@
           <div class="footer-legal">
             <a href="privacy.html">Privacy Policy</a>
             <a href="empty-legs.html">Empty Legs</a>
+            <span data-google-trust="footer"></span>
           </div>
         </div>
       </div>
@@ -305,6 +323,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/google-trust.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>
