@@ -42,9 +42,13 @@
         <a href="quotes.html">Quotes</a>
         <a href="empty-legs.html">Empty Legs</a>
         <a href="team.html">Team</a>
-        <a href="quotes.html" class="btn btn-primary nav-cta nav-cta-desktop">Create An Instant Quote</a>
+        <a href="quotes.html" class="btn btn-nav-outline nav-cta nav-cta-desktop">Create An Instant Quote</a>
       </nav>
       <div class="nav-actions">
+        <a href="tel:+18653135296" class="nav-phone" aria-label="Call Flight Choice">
+          <svg class="nav-phone__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+          865-313-5296
+        </a>
         <button type="button" class="menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
           <span></span><span></span><span></span>
         </button>
@@ -107,21 +111,56 @@
       </div>
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-trim" aria-hidden="true"></div>
       <div class="hero-inner">
-        <h1 class="hero-reveal hero-reveal--1">Knoxville's Premier Private Aircraft Charter and Management Service</h1>
-        <p class="hero-sub hero-reveal hero-reveal--2">Aircraft charter, management, and turn-key maintenance—built around your schedule and the highest standards of safety.</p>
-        <div class="hero-btns hero-reveal hero-reveal--3">
-          <a href="quotes.html" class="btn btn-primary">Create An Instant Quote</a>
-          <a href="aircraft.html" class="btn btn-ghost">View Our Aircraft</a>
+        <p class="hero-eyebrow hero-reveal hero-reveal--1">Knoxville's Premier</p>
+        <h1 class="hero-reveal hero-reveal--2">Private Aircraft Charter &amp; Management Service</h1>
+        <p class="hero-sub hero-reveal hero-reveal--3">Aircraft charter, management, and turn-key maintenance—built around your schedule and the highest standards of safety.</p>
+        <div class="hero-btns hero-reveal hero-reveal--4">
+          <a href="quotes.html" class="btn btn-gold">Create An Instant Quote <span class="btn-chevron" aria-hidden="true">›</span></a>
+          <a href="aircraft.html" class="btn btn-gold-outline">View Our Aircraft <span class="btn-chevron" aria-hidden="true">›</span></a>
         </div>
-        <div class="trust-strip hero-reveal hero-reveal--5" role="list">
-          <span class="trust-item" role="listitem">FAA Part 135 · X0IA198L</span>
-          <span class="trust-item" role="listitem">On-Demand 24/7</span>
-          <span class="trust-item" role="listitem">Knoxville, Tennessee</span>
-          <span class="trust-item" role="listitem">Time Saved is Life Gained</span>
-        </div>
+      </div>
+    </section>
 
-        <p class="google-trust-inline hero-reveal hero-reveal--5" data-google-trust="inline"></p>
+    <section class="trust-bar" aria-label="Why Flight Choice">
+      <div class="trust-bar__grid">
+        <article class="trust-pillar">
+          <span class="trust-pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M12 3l7 4v5c0 4.5-3 8.5-7 9-4-.5-7-4.5-7-9V7l7-4z"/></svg>
+          </span>
+          <div>
+            <h3 class="trust-pillar__title">Safety First</h3>
+            <p class="trust-pillar__desc">FAA Part 135 approved air carrier · Certificate X0IA198L</p>
+          </div>
+        </article>
+        <article class="trust-pillar">
+          <span class="trust-pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6l2-6z"/></svg>
+          </span>
+          <div>
+            <h3 class="trust-pillar__title">Professional Crew</h3>
+            <p class="trust-pillar__desc">Experienced pilots and maintenance professionals on every mission</p>
+          </div>
+        </article>
+        <article class="trust-pillar">
+          <span class="trust-pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          <div>
+            <h3 class="trust-pillar__title">On Your Schedule</h3>
+            <p class="trust-pillar__desc">On-demand charter 24/7—your route, your timeline</p>
+          </div>
+        </article>
+        <article class="trust-pillar">
+          <span class="trust-pillar__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg>
+          </span>
+          <div>
+            <h3 class="trust-pillar__title">Regional Access</h3>
+            <p class="trust-pillar__desc">Knoxville-based operations with direct access across the Southeast</p>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -188,36 +227,93 @@
     <section class="section section--dark" aria-labelledby="fleet-prev">
       <div class="container">
         <div class="section-head section-head--center reveal">
-          <p class="eyebrow">Aircraft</p>
-          <h2 id="fleet-prev" class="h2">High-Performance Beechcraft Fleet</h2>
+          <p class="eyebrow">Our Fleet</p>
+          <h2 id="fleet-prev" class="h2">Designed for Every Mission</h2>
           <p class="lead">King Air 250, King Air 90, and Baron 58—matched to your mission profile.</p>
         </div>
         <div class="fleet-showcase">
-          <article class="aircraft-card fleet-feature reveal">
-            <div class="aircraft-card__img img-zoom"><img src="assets/images/hero/kingair-250-prop-closeup.webp" alt="King Air 250 turboprop" width="1200" height="800" loading="lazy" decoding="async"></div>
+          <article class="aircraft-card reveal">
+            <div class="aircraft-card__img img-zoom">
+              <span class="fleet-card__category">Turboprop</span>
+              <img src="assets/images/fleet/kingair-front-prop-running.webp" alt="King Air 250 on the ramp" loading="lazy" decoding="async">
+            </div>
             <div class="aircraft-card__body">
               <h3>King Air 250 Series</h3>
-              <span class="stat-chip">Up to 8 + 2 passengers</span><span class="stat-chip">280+ KTAS</span>
-              <p class="desc">Pressurized turboprop—280+ KTAS, executive cabin.</p>
-              <a href="aircraft.html#kingair-250" class="link-arrow">View Aircraft</a>
+              <dl class="fleet-specs">
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zM4 20a8 8 0 0116 0"/></svg></span>
+                  <dt>Passengers</dt><dd>Up to 8 + 2</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><rect x="4" y="8" width="16" height="12" rx="1"/><path d="M8 8V6a4 4 0 018 0v2"/></svg></span>
+                  <dt>Payload</dt><dd>2,600+ lbs</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M13 3L4 14h7l-1 7 9-11h-7l1-7z"/></svg></span>
+                  <dt>Cruise</dt><dd>280+ KTAS</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg></span>
+                  <dt>Range</dt><dd>900–1,200 NM</dd>
+                </div>
+              </dl>
+              <a href="aircraft.html#kingair-250" class="link-arrow">View Aircraft <span aria-hidden="true">›</span></a>
             </div>
           </article>
           <article class="aircraft-card reveal">
-            <div class="aircraft-card__img img-zoom"><img src="assets/images/fleet/kingair-front-quarter-prop-blur.webp" alt="King Air 90" loading="lazy"></div>
+            <div class="aircraft-card__img img-zoom">
+              <span class="fleet-card__category">Turboprop</span>
+              <img src="assets/images/fleet/kingair-front-quarter-prop-blur.webp" alt="King Air 90" loading="lazy" decoding="async">
+            </div>
             <div class="aircraft-card__body">
               <h3>King Air 90 Series</h3>
-              <span class="stat-chip">Up to 6 + 2</span>
-              <p class="desc">Proven King Air versatility for regional legs.</p>
-              <a href="aircraft.html#kingair-90" class="link-arrow">View Aircraft</a>
+              <dl class="fleet-specs">
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zM4 20a8 8 0 0116 0"/></svg></span>
+                  <dt>Passengers</dt><dd>Up to 6 + 2</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><rect x="4" y="8" width="16" height="12" rx="1"/><path d="M8 8V6a4 4 0 018 0v2"/></svg></span>
+                  <dt>Payload</dt><dd>1,800+ lbs</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M13 3L4 14h7l-1 7 9-11h-7l1-7z"/></svg></span>
+                  <dt>Cruise</dt><dd>250+ KTAS</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg></span>
+                  <dt>Range</dt><dd>800–900 NM</dd>
+                </div>
+              </dl>
+              <a href="aircraft.html#kingair-90" class="link-arrow">View Aircraft <span aria-hidden="true">›</span></a>
             </div>
           </article>
           <article class="aircraft-card reveal">
-            <div class="aircraft-card__img img-zoom"><img src="assets/images/fleet/baron-front-ramp-clouds.webp" alt="Baron 58" loading="lazy"></div>
+            <div class="aircraft-card__img img-zoom">
+              <span class="fleet-card__category">Light Twin</span>
+              <img src="assets/images/fleet/baron-front-ramp-clouds.webp" alt="Baron 58" loading="lazy" decoding="async">
+            </div>
             <div class="aircraft-card__body">
               <h3>Baron 58 Series</h3>
-              <span class="stat-chip">Up to 5 passengers</span>
-              <p class="desc">Twin-engine efficiency and shorter runway access.</p>
-              <a href="aircraft.html#baron-58" class="link-arrow">View Aircraft</a>
+              <dl class="fleet-specs">
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zM4 20a8 8 0 0116 0"/></svg></span>
+                  <dt>Passengers</dt><dd>Up to 5</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><rect x="4" y="8" width="16" height="12" rx="1"/><path d="M8 8V6a4 4 0 018 0v2"/></svg></span>
+                  <dt>Payload</dt><dd>800+ lbs</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M13 3L4 14h7l-1 7 9-11h-7l1-7z"/></svg></span>
+                  <dt>Cruise</dt><dd>185+ KTAS</dd>
+                </div>
+                <div class="fleet-spec">
+                  <span class="fleet-spec__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 2"/></svg></span>
+                  <dt>Range</dt><dd>800–900 NM</dd>
+                </div>
+              </dl>
+              <a href="aircraft.html#baron-58" class="link-arrow">View Aircraft <span aria-hidden="true">›</span></a>
             </div>
           </article>
         </div>
@@ -266,13 +362,13 @@
     </section>
 
     <section class="cta-band" aria-labelledby="home-cta">
-      <div class="cta-band__bg"><img src="assets/images/hero/kingair-signature-fbo-boarding.webp" alt="Boarding at FBO" loading="lazy"></div>
+      <div class="cta-band__bg"><img src="assets/images/interior/kingair-executive-cabin-cream-leather.webp" alt="King Air executive cabin interior" loading="lazy" decoding="async"></div>
       <div class="cta-band__shade" aria-hidden="true"></div>
       <div class="container">
-        <h2 id="home-cta" class="h2">Ready to Fly Smarter?</h2>
+        <h2 id="home-cta" class="h2">Ready to simplify your travel?</h2>
         <div class="cta-btns">
-          <a href="quotes.html" class="btn btn-primary">Create An Instant Quote</a>
-          <a href="tel:+18653135296" class="btn btn-ghost">Call 865-313-5296</a>
+          <a href="quotes.html" class="btn btn-primary">Create An Instant Quote <span class="btn-chevron" aria-hidden="true">›</span></a>
+          <a href="tel:+18653135296" class="btn btn-gold-outline">865-313-5296</a>
         </div>
       </div>
     </section>
